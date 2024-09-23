@@ -1,0 +1,95 @@
+{
+    "span": [
+        {
+            "title": "家人与朋友",
+            "content": "与重要的人共度时光，创造终身难忘的回忆。",
+            "percent": "20",
+            "iconClass": "fa-inverse fas fa-users text-white",
+            "bgColor": "#ff6348"
+        },
+        {
+            "title": "放松",
+            "content": "沉浸在宁静中，舒缓生活的压力。",
+            "percent": "20",
+            "iconClass": "fa-inverse fas fa-couch text-white",
+            "bgColor": "#ffCD56"
+        },
+        {
+            "title": "锻炼",
+            "content": "致力于身体健康，培养健康的生活方式。",
+            "percent": "15",
+            "iconClass": "fa-inverse fas fa-dumbbell text-white ",
+            "bgColor": "#8ee3c5"
+        },
+        {
+            "title": "探索",
+            "content": "涉足新领域，寻求未知发现的刺激。",
+            "percent": "10",
+            "iconClass": "fa-inverse fas fa-map text-white",
+            "bgColor": "#a4cdfd"
+        },
+        {
+            "title": "学习",
+            "content": "踏上持续的学习和自我提升之旅。",
+            "percent": "35",
+            "iconClass": "fa-inverse fas fa-book text-white",
+            "bgColor": "#c5b0ff"
+        }
+    ],
+    "hobby": [
+        {
+            "name": "编程",
+            "content": "探索代码、算法，为现实世界的挑战构建软件解决方案。",
+            "iconClass": "fa-inverse fas fa-code text-primary text-white"
+        },
+        {
+            "name": "音乐",
+            "content": "演奏乐器，作曲，唱歌，喜欢欣赏不同风格的音乐。",
+            "iconClass": "fa-inverse fas fa-music text-primary text-white"
+        },
+        {
+            "name": "摄影",
+            "content": "喜欢记录身边的美好，拍出让他人和自己都心情愉悦的照片",
+            "iconClass": "fa-inverse fas fa-camera text-primary text-white"
+        },
+        {
+            "name": "羽毛球",
+            "content": "喜欢运动，比较擅长羽毛球，可以锻炼我的反应能力",
+            "iconClass": "fas fa-table-tennis text-primary text-white"
+        }
+    ],
+    "corsswideWork": [
+        {
+            "ImgUrl": "/data/works/c1.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/c2.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/c3.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/c4.jpg"
+        }
+    ],
+    "verticalWork": [
+        {
+            "ImgUrl": "/data/works/v1.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/v2.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/v3.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/v4.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/v5.jpg"
+        },
+        {
+            "ImgUrl": "/data/works/v6.jpg"
+        }
+    ]
+}

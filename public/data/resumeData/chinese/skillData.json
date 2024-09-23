@@ -1,0 +1,70 @@
+{
+    "teachnology":[
+        {
+            "title":"响应式布局",
+            "content":"为不同设备创建适应性布局，通过无缝调整设计元素和内容以适配不同屏幕尺寸，确保最佳用户体验。",
+            "iconClass": "fa-inverse fas fa-mobile-alt text-white"
+        },
+        {
+            "title":"交互设计",
+            "content":"创建直观流畅的交互，以实现用户友好的体验。",
+            "iconClass":"fa-inverse fas fa-expand-arrows-alt text-white"
+        },
+        {
+            "title":"原型设计",
+            "content":"将概念转化为交互式原型，以进行测试和完善。",
+            "iconClass":"fa-inverse fas fa-laptop-code text-white"
+        },
+        {
+            "title":"以用户为中心的数据分析",
+            "content":"分析数据，专注于用户的需求和偏好，实现与用户期望相符的基于数据的决策。",
+            "iconClass":"fa-inverse fa-regular fa-sticky-note text-white"
+        }
+    ],
+    "code":[
+        {
+            "iconClass":"fa-inverse fab fa-html5",
+            "languageName":"HTML",
+            "percent":"80"
+        },
+        {
+            "iconClass":"fa-inverse fab fa-css3-alt ",
+             "languageName":"CSS 3",
+            "percent":"80"
+        },
+        {
+            "iconClass":"fa-inverse fab fa-js-square ",
+             "languageName":"JavaScrit",
+            "percent":"70"
+        },
+        {
+            "iconClass":"a-inverse fab fa-vuejs ",
+             "languageName":"Vue2/3",
+            "percent":"70"
+        }
+    ],
+    "language":[
+        {
+            "img":"/data/中国.png",
+            "languageName":"中文",
+            "intro":"母语,有着出色的沟通和协作能力。"
+        },
+        {
+            "img":"/data/粤语.png",
+             "languageName":"粤语",
+            "intro":"流利熟练的粤语能力,能够自信地进行专业沟通。"
+        },
+        {
+            "img":"/data/英国.png",
+             "languageName":"英语",
+            "intro":"取得英语四级证书(CET-4),有着基本的听说读写能力。"
+        }
+    ],
+    "otherSkill":[
+        {
+            "iconClass":"fa-inverse fa-regular fa-sticky-note text-white",
+            "title":"CAD平面设计",
+            "content":"能够使用CAD工具进行室内平面设计,绘制平面家装布置图"
+        }
+    ]
+}

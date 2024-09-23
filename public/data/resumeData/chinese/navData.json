@@ -1,0 +1,32 @@
+{
+    "session1": {
+        "text": "关于",
+        "href": "about",
+        "icon": "fa-solid fa-address-card opacity-75"
+    },
+    "session2": {
+        "text": "教育背景",
+        "href": "education",
+        "icon": "fa-solid fa-graduation-cap opacity-75"
+    },
+    "session3": {
+        "text": "技能",
+        "href": "skill",
+        "icon": "fa-solid fa-tools opacity-75"
+    },
+    "session4": {
+        "text": "项目经历",
+        "href": "progress",
+        "icon": "fa-solid fa-briefcase opacity-75"
+    },
+    "session5": {
+        "text": "兴趣爱好",
+        "href": "hobby",
+        "icon": "fa-solid fa-heart opacity-75"
+    },
+    "session6": {
+        "text": "联系方式",
+        "href": "contract",
+        "icon": "fa-solid fa-pen-to-square opacity-75"
+    }
+}

@@ -1,18 +1,21 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="Page d-flex">
+    <SideNav class="flex-shrink-0"/>
+      <SessionPage ref="sessionPage" />
   </div>
+
 </template>
 
-<script>
+<script setup>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import SessionPage from '@/components/SessionPage.vue';
+import SideNav from '@/components/SideNav.vue';
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+
 </script>
+
+<style scoped>
+
+</style>
+
+
