@@ -12,25 +12,26 @@
 
             <!-- 导航栏目 -->
             <nav :offset="70" class="sessionNav d-flex flex-column align-items-start mx-5 px-4 text-white">
-                <a href="#" 
-                   @click="scrollToSection(nav.href)" 
-                   :class="['navButton', 'nav-link', 'm-2', 'p-1', { active: activeSection === nav.href }]"
-                   v-for="(nav, i) in navData" 
-                   :key="i"
-                   >
+                <a href="#" @click="scrollToSection(nav.href)"
+                    :class="['navButton', 'nav-link', 'm-2', 'p-1', { active: activeSection === nav.href }]"
+                    v-for="(nav, i) in navData" :key="i">
                     <i :class="nav.icon"></i>
                     <span>&nbsp;&nbsp;&nbsp;{{ nav.text }}</span>
                 </a>
             </nav>
         </div>
-        <div class="navFooter">
-            底部
+        <div class="navFooter d-flex align-items-center">
+            <a href="https://github.com/AX-glorious?tab=repositories" target="_blank"
+                class="icon btn btn-social rounded-circle ms-5  d-flex justify-content-center align-items-center">
+                <i data-v-dcc9f2e0="" class="fa-brands fa-github text-white"></i>
+            </a>
+            <div class="name ms-2 text-white">设计：Aster</div>
         </div>
     </div>
 </template>
 
 <script setup>
-import { ref, onMounted} from 'vue';
+import { ref, onMounted } from 'vue';
 import axios from 'axios';
 
 // 响应式数据
@@ -47,8 +48,8 @@ const activeSection = ref('');//接收滚动数据
 onMounted(() => {
 
     //监听sessionpage的滚动事件，获取当前活跃的session
-    window.addEventListener('activeSectionChange',(event)=>{
-        activeSection.value=event.detail.sectionId
+    window.addEventListener('activeSectionChange', (event) => {
+        activeSection.value = event.detail.sectionId
     });
 
     axios.get('/data/resumeData/chinese/basicData.json')
@@ -116,6 +117,21 @@ const scrollToSection = (sectionId) => {
 
     .navFooter {
         height: 15vh;
+        .icon {
+                width: 70px;
+                height: 70px;
+                font-size: 40px;
+                background-color: #212529;
+            }
+
+            .icon:hover {
+                background-color:blueviolet;
+                transition: color 0.4s ease;
+
+            }
+            .name{
+                font-size: 18px;
+            }
     }
 }
 </style>

@@ -7,11 +7,11 @@
             <div class="d-flex flex-column align-items-start">
                 <div class="emil text-color my-1 fs-5">
                     <i data-v-c4644c6f="" class="fa-solid fa-envelope list-item-icon"></i>
-                    <span>&nbsp; {{resumeData.email}}</span>
+                    <span>&nbsp; {{ resumeData.email }}</span>
                 </div>
                 <div class="mobile text-color fs-5">
                     <i data-v-c4644c6f="" class="fa-solid fa-phone list-item-icon"></i>
-                    <span>&nbsp; {{resumeData.phone}}</span>
+                    <span>&nbsp; {{ resumeData.phone }}</span>
                 </div>
             </div>
             <div class="intro text-start my-3">
@@ -20,8 +20,9 @@
                 </span>
             </div>
             <div class="iconList my-1 ">
-                <a href="https://github.com/AX-glorious?tab=repositories" target="_blank" class="icon btn btn-social bg-dark rounded-circle d-flex justify-content-center align-items-center">
-                        <i data-v-dcc9f2e0="" class="fa-brands fa-github text-white"></i>
+                <a href="https://github.com/AX-glorious?tab=repositories" target="_blank"
+                    class="icon btn btn-social  rounded-circle d-flex justify-content-center align-items-center">
+                    <i data-v-dcc9f2e0="" class="fa-brands fa-github text-white"></i>
                 </a>
             </div>
         </div>
@@ -34,9 +35,9 @@ import axios from 'axios';
 
 // 响应式数据
 const resumeData = ref({
-    intro:'',
-    email:'',
-    phone:'',
+    intro: '',
+    email: '',
+    phone: '',
 });
 
 
@@ -57,7 +58,7 @@ onMounted(() => {
 
 <style scoped>
 .about {
-    
+
     .page {
         height: 100vh;
         padding: 190px 110px;
@@ -75,7 +76,13 @@ onMounted(() => {
                 width: 70px;
                 height: 70px;
                 font-size: 40px;
-                
+                background-color: #212529;
+            }
+
+            .icon:hover {
+                background-color:blueviolet;
+                transition: color 0.4s ease;
+
             }
         }
     }
