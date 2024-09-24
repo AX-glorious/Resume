@@ -1,0 +1,14 @@
+{
+    "way": [
+        {
+            "title": "电子邮件",
+            "content": "1249506887@qq.com",
+            "iconClass": "fa-solid fa-envelope text-white"
+        },
+        {
+            "title": "电话",
+            "content": "(+86) 13428835569",
+            "iconClass": "fa-solid fa-phone text-white"
+        }
+    ]
+}
